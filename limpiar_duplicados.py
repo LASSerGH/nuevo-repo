@@ -1,3 +1,4 @@
+# Cambios para validar (1.-guardar 2.-adición de archivo 3.-confirmación en rama 4.-cambio a rama base 5.-incorporación de cambios desde rama con modificaciones)
 # declara directorio de busqueda
 # -*- coding: utf-8 -*-
 import os
