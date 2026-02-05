@@ -1,3 +1,4 @@
+# declara directorio de busqueda
 # -*- coding: utf-8 -*-
 import os
 import sys
@@ -7,7 +8,7 @@ def calcular_hash(ruta_archivo, tamano_bloque=65536):
     """Calcula el hash SHA256 de un archivo, leyéndolo en bloques para ser eficiente con la memoria."""
     sha256 = hashlib.sha256()
     try:
-        with open(ruta_archivo, 'rb') as f:
+        with open(ruta_archivo, "rb") as f:
             # Lee el archivo en bloques para no consumir demasiada memoria con archivos grandes
             for bloque in iter(lambda: f.read(tamano_bloque), b''):
                 sha256.update(bloque)
@@ -41,11 +42,15 @@ def encontrar_duplicados(directorio):
 
 def main():
     # Verifica que se haya proporcionado la ruta de la carpeta como argumento
-    if len(sys.argv) < 2:
+    ruta_objetivo = r"C:\Contenedor\capturas" 
+    
+    # antes : if len(sys.argv) < 2:
+    if len(ruta_objetivo) < 2:
         print("Uso: python limpiar_duplicados.py <ruta_de_la_carpeta>")
         sys.exit(1)
 
-    directorio_objetivo = sys.argv[1]
+    # antes : directorio_objetivo = sys.argv[1]
+    directorio_objetivo = ruta_objetivo
 
     # Verifica que la ruta proporcionada sea una carpeta válida
     if not os.path.isdir(directorio_objetivo):
