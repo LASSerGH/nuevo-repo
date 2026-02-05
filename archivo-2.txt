@@ -1,5 +1,6 @@
 
 *** Genera nuevo conflicto desde local
+*** Genera nuevo conflicto
 *** Modificación forzada en repo remoto
 
 4.-
