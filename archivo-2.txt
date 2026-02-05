@@ -1,3 +1,4 @@
+*** Modificación en local
 *** cambio en remoto para control
 *** Genera nuevo conflicto desde local
 *** Genera nuevo conflicto
