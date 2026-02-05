@@ -1,4 +1,10 @@
 * Cambios de base local sin considerar repositorio remoto!!!!
+8.- 
+Nuevo cambio aplicados directo en repositorio remoto
+
+8.- 
+Cambios aplicados de repositorio remoto
+
 
 4.- 
 versión # 3 del archivo # 1
